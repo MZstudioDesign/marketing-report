@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { Image } from "@/components/ui/base-image";
 import { LayoutDashboard, Eye, Download, Building2, Share2, TrendingUp, Zap, Camera, Play, Smartphone, GraduationCap, Target, RefreshCw, BarChart2 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { BlurFade } from "@/components/ui/blur-fade";

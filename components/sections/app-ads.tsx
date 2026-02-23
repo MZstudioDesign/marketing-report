@@ -11,7 +11,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import Image from "next/image";
+import { Image } from "@/components/ui/base-image";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { NumberTicker } from "@/components/ui/number-ticker";
 import { SectionHeader } from "@/components/ui/section-header";

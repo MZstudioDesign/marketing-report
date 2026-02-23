@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { createPortal } from "react-dom";
-import Image from "next/image";
+import { Image } from "@/components/ui/base-image";
 import { CalendarDays, CheckCircle2, Circle, ChevronLeft, ChevronRight, X, ZoomIn } from "lucide-react";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { SectionHeader } from "@/components/ui/section-header";

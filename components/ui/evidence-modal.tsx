@@ -4,7 +4,7 @@ import { useState } from "react";
 import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { X, Info, ChevronLeft, ChevronRight, Images } from "lucide-react";
-import Image from "next/image";
+import { Image } from "@/components/ui/base-image";
 
 interface EvidenceImage {
   src: string;
